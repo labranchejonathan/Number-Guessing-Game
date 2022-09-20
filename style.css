@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, blue, rgb(198, 186, 186));
+}
+
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.container p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container input {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 50%;
+  border: 0;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container label {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.container button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 10px;
+  border: none;
+}
